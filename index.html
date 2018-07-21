@@ -20,6 +20,7 @@
 
     <!-- Custom styles for this template -->
     <link href="css/clean-blog.min.css" rel="stylesheet">
+    <script src="https://cdn.vdist.link/vtag.20180710.js"></script>
 
   </head>
 
@@ -71,6 +72,11 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
+           <div id="player1" width="560" height="315"></div>
+          <script>
+          var player1 = new VTag.Player('#player1', 'DSRplU1bTCyIdI7PlFE79g', '9b2a8cb3-629f-4351-8821-5e821ebbe5ae');
+          player1.autoplay(true);
+          </script>
           <div class="post-preview">
             <a href="post.html">
               <h2 class="post-title">
